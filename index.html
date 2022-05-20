@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFrom</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+    <h1 id="mainheading">Welcome to Fasial Movers</h1>
+    <hr>
+    <div id="alert"></div>
+    
+    <form action="">
+        <label for="name">Name</label>
+        <div class="input" id="username">
+            <input type="text" id="uname" name="name" placeholder="Enter Your Name" required>
+            <div id="nameerror"></div>
+        </div>
+
+        <label for="email">Email Address</label>
+        <div class="input" id="useremail">
+
+            <input type="email" id="uemail" name="email" placeholder="Enter Your Email" required>
+            <div id="emailerror"></div>
+        </div>
+        <label for="car">Select Your Car</label>
+        <div class="input" id="yourcar">
+
+            <input type="text" id="car" name="car" placeholder="Car Name">
+            <div id="carerror"></div>
+        </div>
+        <label for="address">Enter Your Address</label>
+        <div class="txtarea input" id="Address">
+
+            <textarea name="address" id="address" cols="30" rows="2" placeholder="Please Enter Your Address"></textarea>
+            <div id="adderror"></div>
+            
+        </div>
+        <label for="Number">Enter Your Mobile Number</label>
+        <div class="input" id="PhoneNumber">
+
+            <input type="number" id="Number" name="Number" placeholder="xxxxxxxxxxx">
+            <div id="numerror"></div>
+        </div>
+        <label for="msg">Any other message</label>
+        <div class="txtarea input" id="message">
+
+            <textarea name="msg" id="msg" cols="30" rows="2" placeholder="Please enter your Message"></textarea>
+            <div id="msgerror"></div>
+        </div>
+        <div class="btns">
+            <input type="submit" name="submit" id="submit">
+            <input type="reset" name="reset" id="reset">
+        </div>
+    </form>
+</body>
+<script src="/JS/index.js"></script>
+
+</html>

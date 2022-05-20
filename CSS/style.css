@@ -1,0 +1,79 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: lightblue; */
+}
+/* main heading  */
+body{
+    background: url('/images/image2.jpg') no-repeat center center/cover;
+ 
+}
+#mainheading{
+    text-align: center;
+    font-size: 5rem;
+}
+form{
+    margin: 40px;
+}
+label{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+}
+.input input , textarea{
+    display: block;
+    width: 90%;
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 2.3rem;
+}
+/* .input  input:hover , textarea:hover {
+    background-color: rgb(182, 182, 216);
+} */
+.btns{
+    margin-top: 100px;
+}
+.btns #submit , #reset{
+    width: 20%;
+    height: 7vh;
+    background-color: blue;
+    border-bottom: 3px solid black;
+    margin: 10px 40px;
+    font-size: 3rem;
+}
+.btns #submit:hover , #reset:hover{
+   
+    border-bottom: 5px solid black;
+    background-color: darkblue; 
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 140px;
+    right: 30px;
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+    text-decoration: none;
+    color: rgb(83, 81, 81);
+    font-size: xx-large;
+    
+  }
+  
+.close:hover{
+    color: black;
+    border:  3px solid black;
+    border-radius: 45%;
+}
+#errormsg{
+    /* border: 4px solid red; */
+    /* background-color: rgb(253, 196, 196); */
+    color: red;
+    width : 90%;
+    height: 50px;
+    padding: 10px;
+    display:  none;
+    /* margin: 10px ,20px; */
+    /* font-size: 2rem; */
+}
